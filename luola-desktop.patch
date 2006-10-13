@@ -1,0 +1,11 @@
+--- luola-1.3.2/luola.desktop~	2006-10-14 01:08:49.000000000 +0200
++++ luola-1.3.2/luola.desktop	2006-10-14 01:10:06.000000000 +0200
+@@ -5,5 +5,7 @@
+ Comment=A 2-4 player caveflying game
+ Comment[pl]=Gra zręcznościowa dla 2-4 graczy
+ Exec=luola
++Terminal=false
+ Icon=luola.png
+-Categories=Application;Game;;
++Categories=Game;ArcadeGame;
++# vi: encoding=utf-8
