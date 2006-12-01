@@ -9,6 +9,8 @@ Source0:	http://www.luolamies.org/software/luola/%{name}-%{version}.tar.gz
 # Source0-md5:	029f48e8fb8d104e9634cf20c4493460
 Source1:	http://www.luolamies.org/software/luola/stdlevels-6.0.tar.gz
 # Source1-md5:	7660b90d67c06726c1849c3ff0e24aea
+Source2:	http://www.luolamies.org/software/luola/nostalgia-1.2.tar.gz
+# Source2-md5:	4777681fa97ada351ebaf954ba8451ef
 Patch0:		%{name}-desktop.patch
 URL:		http://www.luolamies.org/software/luola/
 BuildRequires:	SDL-devel
@@ -50,6 +52,7 @@ install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 install luola.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install luola.png $RPM_BUILD_ROOT%{_pixmapsdir}
 tar xvvf %{SOURCE1} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
+tar xvvf %{SOURCE2} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
 
 %clean
 rm -rf $RPM_BUILD_ROOT
