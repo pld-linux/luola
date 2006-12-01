@@ -2,8 +2,8 @@ Summary:	Multiplayer Cave-flying game
 Summary(pl):	Sieciowa gra zrêczno¶ciowa
 Name:		luola
 Version:	1.3.2
-Release:	2
-License:	GPL v2
+Release:	1
+License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://www.luolamies.org/software/luola/%{name}-%{version}.tar.gz
 # Source0-md5:	029f48e8fb8d104e9634cf20c4493460
@@ -51,8 +51,8 @@ install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 install luola.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install luola.png $RPM_BUILD_ROOT%{_pixmapsdir}
-tar xvvf %{SOURCE1} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
-tar xvvf %{SOURCE2} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
+tar xvf %{SOURCE1} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
+tar xvf %{SOURCE2} -C $RPM_BUILD_ROOT%{_datadir}/%{name}/levels
 
 %clean
 rm -rf $RPM_BUILD_ROOT
