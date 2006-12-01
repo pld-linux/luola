@@ -26,7 +26,7 @@ small V-shaped ship and has one special weapon. The object of the game
 is simply to destroy all other players.
 
 %description -l pl
-Luola to zrêczno¶ciówka dla 2-4 graczy. Ka¿dy gracz lata ma³ym
+Luola to gra zrêczno¶ciowa dla 2-4 graczy. Ka¿dy gracz lata ma³ym
 statkiem w kszta³cie litery V po ró¿nych poziomach. Celem gry jest
 zniszczenie wszystkich pozosta³ych graczy.
 
