@@ -1,5 +1,5 @@
 Summary:	Multiplayer Cave-flying game
-Summary(pl.UTF-8):   Sieciowa gra zręcznościowa
+Summary(pl.UTF-8):	Sieciowa gra zręcznościowa
 Name:		luola
 Version:	1.3.2
 Release:	1
