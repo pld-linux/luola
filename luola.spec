@@ -1,5 +1,5 @@
 Summary:	Multiplayer Cave-flying game
-Summary(pl):	Sieciowa gra zrÍczno∂ciowa
+Summary(pl.UTF-8):   Sieciowa gra zrƒôczno≈õciowa
 Name:		luola
 Version:	1.3.2
 Release:	1
@@ -25,10 +25,10 @@ Luola is a cavern-flying game for 2-4 players. Each player flies a
 small V-shaped ship and has one special weapon. The object of the game
 is simply to destroy all other players.
 
-%description -l pl
-Luola to gra zrÍczno∂ciowa dla 2-4 graczy. Kaødy gracz lata ma≥ym
-statkiem w kszta≥cie litery V po rÛønych poziomach. Celem gry jest
-zniszczenie wszystkich pozosta≥ych graczy.
+%description -l pl.UTF-8
+Luola to gra zrƒôczno≈õciowa dla 2-4 graczy. Ka≈ºdy gracz lata ma≈Çym
+statkiem w kszta≈Çcie litery V po r√≥≈ºnych poziomach. Celem gry jest
+zniszczenie wszystkich pozosta≈Çych graczy.
 
 %prep
 %setup -q
